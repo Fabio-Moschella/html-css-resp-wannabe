@@ -133,13 +133,15 @@ img {
     width: 100%;
   }
 }
+/*TABLET*/
 @media screen and (max-width: 768px) {
   .container {
     max-width: 680px;
     width: 100%;
   }
 }
-/*@media screen and (max-width: 480px) {
+/*MOBILE*/
+@media screen and (max-width: 480px) {
   .container {
     max-width: 380px;
   }
@@ -148,15 +150,26 @@ img {
   }
   .lessons .col {
     width: 100%;
+    padding-bottom: 30px;
+  }
+  .steps {
+    margin: 0;
   }
   .steps .col {
     width: 100%;
+    padding-bottom: 30px;
   }
   .why-us .col {
     width: 100%;
   }
-  .lessons .card {
+  .why-us .col-left {
     padding-bottom: 30px;
   }
+  .why-us {
+    background: #222222;
+    margin: 0;
+  }
+  .why-us .text-center {
+    padding-top: 30px;
+  }
 }
-*/
